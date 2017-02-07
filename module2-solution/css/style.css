@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   border-collapse: collapse;
+  /* Don't judge me, just looks close to mock up :) */;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Desktop view */
@@ -151,28 +153,33 @@
 .titleBlock{
 	border: 1px solid black;
 	border-top: none;
+	padding-left: 20px;
+	padding-right: 20px;
 	float: right;
 	font-size: 1.25em;
 }
 
 #chickenTitle {
-	background-color: blue;
+	background-color: #d59898;
 }
 
 #beefTitle {
-	background-color: orange;
+	background-color: #c14543;
+	color: white;
 }
 
 #sushiTitle {
-	background-color: purple;
+	background-color: #e5d198;
 }
 
 p.foodContent {
-	margin-bottom: 5px;
+	margin: 15px;
+	padding-top: 15px;
 	clear: right;
 }
 
 h1{
 	font-size: 1.75em;
+	text-align: center;
 }
 
